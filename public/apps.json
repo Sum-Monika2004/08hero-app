@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://dummyimages.com/app/cosmic-explorer-icon.png",
+    "title": "Cosmic Explorer",
+    "companyName": "Stellar Softworks",
+    "id": 1,
+    "description": "Interactive guide to stars and galaxies.",
+    "size": 85,
+    "reviews": 12450,
+    "ratingAvg": 4.6,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/productivity-flow-icon.png",
+    "title": "Productivity Flow",
+    "companyName": "Focus Tech",
+    "id": 2,
+    "description": "Task management and time-tracking tool.",
+    "size": 32,
+    "reviews": 8900,
+    "ratingAvg": 4.1,
+    "downloads": "250K",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/zen-garden-pro-icon.png",
+    "title": "Zen Garden Pro",
+    "companyName": "Mindful Apps",
+    "id": 3,
+    "description": "Meditations, sleep stories, and relaxing sounds.",
+    "size": 150,
+    "reviews": 25000,
+    "ratingAvg": 4.8,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 19500 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/recipe-remix-icon.png",
+    "title": "Recipe Remix",
+    "companyName": "Culinary Creations",
+    "id": 4,
+    "description": "Millions of recipes and meal planner.",
+    "size": 45,
+    "reviews": 18000,
+    "ratingAvg": 4.5,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/pixel-art-maker-icon.png",
+    "title": "Pixel Art Maker",
+    "companyName": "Creative Canvas Inc.",
+    "id": 5,
+    "description": "Create retro-style pixel art easily.",
+    "size": 25,
+    "reviews": 6500,
+    "ratingAvg": 4.3,
+    "downloads": "400K",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/global-news-feed-icon.png",
+    "title": "Global News Feed",
+    "companyName": "InfoStream Media",
+    "id": 6,
+    "description": "Stay updated with breaking world news.",
+    "size": 60,
+    "reviews": 32000,
+    "ratingAvg": 4.2,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/fitness-tracker-x-icon.png",
+    "title": "Fitness Tracker X",
+    "companyName": "Health Metrics Ltd.",
+    "id": 7,
+    "description": "Track workouts, sleep, and nutrition.",
+    "size": 95,
+    "reviews": 45000,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 28550 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/language-leap-icon.png",
+    "title": "Language Leap",
+    "companyName": "Polyglot Labs",
+    "id": 8,
+    "description": "Learn new languages with bite-sized lessons.",
+    "size": 120,
+    "reviews": 28000,
+    "ratingAvg": 4.4,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 10300 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/weather-watcher-icon.png",
+    "title": "Weather Watcher",
+    "companyName": "Clear Skies Co.",
+    "id": 9,
+    "description": "Hyperlocal forecasts with interactive radar.",
+    "size": 70,
+    "reviews": 15000,
+    "ratingAvg": 4.0,
+    "downloads": "750K",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/photo-editor-pro-icon.png",
+    "title": "Photo Editor Pro",
+    "companyName": "Visual Dynamics",
+    "id": 10,
+    "description": "Pro photo editing with advanced filters.",
+    "size": 110,
+    "reviews": 55000,
+    "ratingAvg": 4.6,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 32000 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/strategy-quest-icon.png",
+    "title": "Strategy Quest",
+    "companyName": "Gaming Galaxy",
+    "id": 11,
+    "description": "Turn-based strategy game to build an empire.",
+    "size": 250,
+    "reviews": 60000,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 27500 }
+    ]
+  },
+  {
+    "image": "https://dummyimages.com/app/secure-wallet-icon.png",
+    "title": "Secure Wallet",
+    "companyName": "Trustworthy Finance",
+    "id": 12,
+    "description": "Manage finances, track spending, set budgets.",
+    "size": 55,
+    "reviews": 11000,
+    "ratingAvg": 4.7,
+    "downloads": "800K",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  }
+]

@@ -1,7 +1,16 @@
 import React from "react";
+import Banner from "../../Components/Banner/Banner";
+import Apps from "../Apps/Apps";
+import { useLoaderData } from "react-router";
 
 const Home = () => {
-  return <div>Home</div>;
+  const data = useLoaderData();
+  return (
+    <div>
+      <Banner></Banner>
+      <Apps data={data}></Apps>
+    </div>
+  );
 };
 
 export default Home;

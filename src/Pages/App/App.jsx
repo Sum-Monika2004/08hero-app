@@ -1,0 +1,30 @@
+import React, { use } from "react";
+import downloadImg from "../../assets/icon-downloads.png";
+import ratingImg from "../../assets/icon-ratings.png";
+
+const App = ({ singleApp }) => {
+  console.log(singleApp);
+
+  return (
+    <div className="bg-white rounded-[4px]">
+      <div className="p-4">
+        <img src={singleApp.image} />
+        <p>
+          {singleApp.title}: {singleApp.description}
+        </p>
+        <div className="flex justify-between items-center">
+          <button className="btn bg-[#F1F5E8] border-none">
+            <img className="w-4 h-4" src={downloadImg} />
+            <span className="text-[#00D390]">{singleApp.downloads}</span>
+          </button>
+          <button className="btn bg-[#FFF0E1] border-none">
+            <img className="w-4 h-4" src={ratingImg} />
+            <span className="text-[#FF8811]">{singleApp.ratingAvg}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default App;
