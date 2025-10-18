@@ -1,13 +1,22 @@
 import React from "react";
 import logoImg from "../../assets/logo.png";
 import gitHubImg from "../../assets/fi_2111432.png";
+import { NavLink } from "react-router";
 
 const Header = () => {
   const links = (
     <>
-      <li className="m-2">Home</li>
-      <li className="m-2">Apps</li>
-      <li className="m-2">Installation</li>
+      <NavLink to="/">
+        <li className="m-2">Home</li>
+      </NavLink>
+
+      <NavLink to="/about">
+        <li className="m-2">Apps</li>
+      </NavLink>
+
+      <NavLink to="/installation">
+        <li className="m-2">Installation</li>
+      </NavLink>
     </>
   );
   return (
@@ -39,12 +48,14 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
-            <img className="h-7 w-7" src={logoImg} alt="" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl">
-              HERO.IO
-            </span>
-          </a>
+          <NavLink to="/">
+            <a className="btn btn-ghost text-xl">
+              <img className="h-7 w-7" src={logoImg} alt="" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl">
+                HERO.IO
+              </span>
+            </a>
+          </NavLink>
         </div>
 
         <div className="navbar-center hidden lg:flex">
