@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content">
-        <div className="py-10 flex justify-between px-48 gap-150 items-center border-b-1 mx-auto border-gray-600">
+        <div className="py-10  md:flex md:gap-200  gap-10 justify-between px-48 border-b-1 mx-auto border-gray-600">
           <div className="flex items-center gap-3">
             <img className="h-6 w-6" src={logoImg} alt="" />
             <p>HERO.IO</p>
           </div>
           <div>
-            <h6 className="footer-title">Social Links</h6>
+            <h6 className="text-xl mb-2 text-white">Social Links</h6>
             <div className="grid grid-flow-col gap-4">
               <a>
                 <svg

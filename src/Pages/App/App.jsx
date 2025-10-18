@@ -6,10 +6,10 @@ const App = ({ singleApp }) => {
   console.log(singleApp);
 
   return (
-    <div className="bg-white rounded-[4px]">
+    <div className="bg-white rounded-[4px] shadow-xl">
       <div className="p-4">
-        <img src={singleApp.image} />
-        <p>
+        <img className="rounded-[4px] mx-auto" src={singleApp.image} />
+        <p className="my-4 font-bold ">
           {singleApp.title}: {singleApp.description}
         </p>
         <div className="flex justify-between items-center">

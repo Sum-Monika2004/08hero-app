@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://dummyimages.com/app/cosmic-explorer-icon.png",
+    "image": "src/assets/demo-app (1).webp",
     "title": "Cosmic Explorer",
     "companyName": "Stellar Softworks",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/productivity-flow-icon.png",
+    "image": "src/assets/demo-app (6).webp",
     "title": "Productivity Flow",
     "companyName": "Focus Tech",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/zen-garden-pro-icon.png",
+    "image": "src/assets/demo-app (3).webp",
     "title": "Zen Garden Pro",
     "companyName": "Mindful Apps",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/recipe-remix-icon.png",
+    "image": "src/assets/demo-app (4).webp",
     "title": "Recipe Remix",
     "companyName": "Culinary Creations",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/pixel-art-maker-icon.png",
+    "image": "src/assets/demo-app (2).webp",
     "title": "Pixel Art Maker",
     "companyName": "Creative Canvas Inc.",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/global-news-feed-icon.png",
+    "image": "src/assets/demo-app (5).webp",
     "title": "Global News Feed",
     "companyName": "InfoStream Media",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/fitness-tracker-x-icon.png",
+    "image": "src/assets/demo-app (6).webp",
     "title": "Fitness Tracker X",
     "companyName": "Health Metrics Ltd.",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/language-leap-icon.png",
+    "image": "src/assets/demo-app (1).webp",
     "title": "Language Leap",
     "companyName": "Polyglot Labs",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/weather-watcher-icon.png",
+    "image": "src/assets/demo-app (2).webp",
     "title": "Weather Watcher",
     "companyName": "Clear Skies Co.",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/photo-editor-pro-icon.png",
+    "image": "src/assets/demo-app (3).webp",
     "title": "Photo Editor Pro",
     "companyName": "Visual Dynamics",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/strategy-quest-icon.png",
+    "image": "src/assets/demo-app (4).webp",
     "title": "Strategy Quest",
     "companyName": "Gaming Galaxy",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://dummyimages.com/app/secure-wallet-icon.png",
+    "image": "src/assets/demo-app (5).webp",
     "title": "Secure Wallet",
     "companyName": "Trustworthy Finance",
     "id": 12,
