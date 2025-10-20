@@ -1,12 +1,12 @@
 [
   {
-    "image": "src/assets/demo-app (1).webp",
+    "image": "/demo-app (1).webp",
     "title": "Cosmic Explorer",
     "companyName": "Stellar Softworks",
     "id": 1,
-    "description": "Interactive guide to stars and galaxies.",
+    "description": "Cosmic Explorer is the definitive educational and recreational tool for space enthusiasts, students, and casual stargazers. It transforms your device into a powerful, portable planetarium, offering an immersive and interactive experience with high-definition visuals of stars, constellations, distant galaxies, and all solar system bodies. Users can navigate a real-time, augmented reality sky map by simply pointing their camera up, or explore celestial phenomena through thousands of expertly guided tours and educational articles. The application provides detailed scientific data, historical context on astronomical discoveries, and live updates on meteor showers and planetary alignments. It's the perfect platform for deepening your understanding of the universe, offering both beginners and advanced users a gateway to the cosmos right from their fingertips.",
     "size": 85,
-    "reviews": 12450,
+    "reviews": "12.5K",
     "ratingAvg": 4.6,
     "downloads": "500K",
     "ratings": [
@@ -18,13 +18,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (6).webp",
+    "image": "/demo-app (6).webp",
     "title": "Productivity Flow",
     "companyName": "Focus Tech",
     "id": 2,
-    "description": "Task management and time-tracking tool.",
+    "description": "Productivity Flow is an essential, all-in-one management suite engineered to eliminate digital clutter and maximize work efficiency for both professionals and large teams. It delivers seamless integration of robust task management features, deep project planning tools, and detailed time-tracking capabilities. The platform allows for the creation of completely customizable workflows using Kanban boards, Gantt charts, and calendar views, ensuring every project phase is clear and accountable. Automated reporting and powerful analytics help you identify and eliminate common time sinks, providing data-driven insights into your team’s performance. With cross-device synchronization and robust offline functionality, Productivity Flow guarantees that all your critical tasks, communications, and projects remain organized, accessible, and on schedule, driving successful outcomes consistently.",
     "size": 32,
-    "reviews": 8900,
+    "reviews": "8.9K",
     "ratingAvg": 4.1,
     "downloads": "250K",
     "ratings": [
@@ -36,13 +36,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (3).webp",
+    "image": "/demo-app (3).webp",
     "title": "Zen Garden Pro",
     "companyName": "Mindful Apps",
     "id": 3,
-    "description": "Meditations, sleep stories, and relaxing sounds.",
+    "description": "Zen Garden Pro stands as the premier digital sanctuary for cultivating mental wellness, reducing stress, and achieving profound, restful sleep. The app features an extensive, regularly updated library of guided meditations, suitable for beginners to experienced practitioners, covering critical areas like managing anxiety, boosting focus, and fostering gratitude. Beyond meditation, users can explore dozens of original, immersive sleep stories narrated by world-class, soothing voices, specifically engineered to quiet the mind before bed. Complementing these features is a vast, high-fidelity soundscape collection—ranging from ambient white noise and binaural beats to detailed nature recordings—designed to block out distractions and facilitate relaxation. Zen Garden Pro is your indispensable daily tool for maintaining emotional balance and significantly improving your quality of life through mindfulness.",
     "size": 150,
-    "reviews": 25000,
+    "reviews": "25K",
     "ratingAvg": 4.8,
     "downloads": "1.2M",
     "ratings": [
@@ -54,13 +54,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (4).webp",
+    "image": "/demo-app (4).webp",
     "title": "Recipe Remix",
     "companyName": "Culinary Creations",
     "id": 4,
-    "description": "Millions of recipes and meal planner.",
+    "description": "Recipe Remix revolutionizes the way you approach home cooking, offering instant access to a vast, curated, and globally diverse collection of millions of recipes. The app caters to every skill level and dietary requirement, featuring robust filters for vegan, keto, gluten-free, and allergy-specific needs. Beyond the sheer volume of recipes, its core utility lies in its powerful organizational tools: the intuitive meal planner allows users to schedule weekly menus effortlessly, while the smart grocery feature automatically generates, categorizes, and optimizes shopping lists based on selected recipes. Users can also upload and edit their own family recipes. Recipe Remix acts as an indispensable kitchen companion, simplifying everything from culinary inspiration to convenient, cost-effective meal preparation.",
     "size": 45,
-    "reviews": 18000,
+    "reviews": "18K",
     "ratingAvg": 4.5,
     "downloads": "950K",
     "ratings": [
@@ -72,13 +72,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (2).webp",
+    "image": "/demo-app (2).webp",
     "title": "Pixel Art Maker",
     "companyName": "Creative Canvas Inc.",
     "id": 5,
-    "description": "Create retro-style pixel art easily.",
+    "description": "Pixel Art Maker is the dedicated, streamlined digital studio for creating authentic, captivating retro-style pixel art. Designed for both professional artists and casual hobbyists, the app offers a simple yet robust interface with specialized tools essential for the aesthetic. Key features include a full-featured, custom palette editor, precise color manipulation tools, and 'onion skinning' functionality for smooth sprite animation. Users can work across multiple canvas sizes and easily create tiled backgrounds for games or web projects. The application supports various export formats, ensuring high-quality output for sprites, icons, and tiled backgrounds in a classic 8-bit or 16-bit aesthetic. It’s the perfect platform for bringing your vintage game design or creative ideas to life with precision and ease.",
     "size": 25,
-    "reviews": 6500,
+    "reviews": "6.5K",
     "ratingAvg": 4.3,
     "downloads": "400K",
     "ratings": [
@@ -90,13 +90,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (5).webp",
+    "image": "/demo-app (5).webp",
     "title": "Global News Feed",
     "companyName": "InfoStream Media",
     "id": 6,
-    "description": "Stay updated with breaking world news.",
+    "description": "Global News Feed is your definitive source for staying updated with the world's most critical events in real-time. It aggregates breaking news and in-depth reporting from hundreds of reliable journalistic sources across the globe, covering crucial categories like politics, technology, finance, and culture. The application leverages smart algorithms to filter and personalize your news feed based on your historical interests, ensuring you see the stories that matter most without information overload. Its clean, intuitive interface prioritizes readability, allowing users to quickly scan headlines or dive deep into complex global narratives with comprehensive articles, ensuring you are always informed and engaged with current global affairs.",
     "size": 60,
-    "reviews": 32000,
+    "reviews": "32K",
     "ratingAvg": 4.2,
     "downloads": "1.5M",
     "ratings": [
@@ -108,13 +108,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (6).webp",
+    "image": "/demo-app (6).webp",
     "title": "Fitness Tracker X",
     "companyName": "Health Metrics Ltd.",
     "id": 7,
-    "description": "Track workouts, sleep, and nutrition.",
+    "description": "Fitness Tracker X is the ultimate health and wellness companion, offering a complete, integrated system for monitoring and improving your physical well-being. It goes far beyond basic step counting by meticulously tracking and analyzing various health metrics: detailed, GPS-enabled tracking for outdoor and gym workouts; advanced sleep quality monitoring with sleep cycle breakdown; and comprehensive nutritional logging via an extensive food database. The app provides personalized fitness and nutrition goals, generates actionable progress reports, and seamlessly integrates with all major wearable devices. Whether you're training for a marathon, aiming for weight loss, or simply seeking a more balanced lifestyle, Fitness Tracker X gives you the data and motivation needed to reach your long-term fitness milestones.",
     "size": 95,
-    "reviews": 45000,
+    "reviews": "45K",
     "ratingAvg": 4.7,
     "downloads": "3M",
     "ratings": [
@@ -126,13 +126,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (1).webp",
+    "image": "/demo-app (1).webp",
     "title": "Language Leap",
     "companyName": "Polyglot Labs",
     "id": 8,
-    "description": "Learn new languages with bite-sized lessons.",
+    "description": "Language Leap provides a dynamic and highly effective method for acquiring multiple new languages through modern, research-backed techniques. The curriculum is constructed around bite-sized, gamified lessons that emphasize practical conversation skills, essential grammar structures, and rapid vocabulary acquisition. Utilizing state-of-the-art adaptive learning technology, the app continually adjusts the difficulty and content of lessons to align perfectly with your progress and learning style, maximizing retention and minimizing frustration. It offers immersive audio, speech recognition for pronunciation feedback, and cultural notes to enrich your understanding. Whether your goal is conversational fluency for travel or professional mastery, Language Leap makes the journey to becoming a polyglot engaging, efficient, and deeply rewarding.",
     "size": 120,
-    "reviews": 28000,
+    "reviews": "28K",
     "ratingAvg": 4.4,
     "downloads": "1.8M",
     "ratings": [
@@ -144,13 +144,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (2).webp",
+    "image": "/demo-app (2).webp",
     "title": "Weather Watcher",
     "companyName": "Clear Skies Co.",
     "id": 9,
-    "description": "Hyperlocal forecasts with interactive radar.",
+    "description": "Weather Watcher is a meticulously accurate application dedicated to providing hyperlocal weather forecasts and critical environmental information. The app delivers minute-by-minute precipitation predictions and detailed hourly reports, ensuring you are never caught off guard by changing conditions. Its flagship feature is an interactive, high-resolution radar map that allows users to visualize the real-time movement and intensity of storms, rain, and snow across their region and beyond. It also provides essential data such as wind speed, humidity, air quality index, and severe weather alerts customized to your exact location. For planning your day, travel, or outdoor activities, Weather Watcher is the indispensable tool for reliable and comprehensive meteorological intelligence.",
     "size": 70,
-    "reviews": 15000,
+    "reviews": "15K",
     "ratingAvg": 4.0,
     "downloads": "750K",
     "ratings": [
@@ -162,13 +162,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (3).webp",
+    "image": "/demo-app (3).webp",
     "title": "Photo Editor Pro",
     "companyName": "Visual Dynamics",
     "id": 10,
-    "description": "Pro photo editing with advanced filters.",
+    "description": "Photo Editor Pro is a powerful, professional-grade mobile editing application that brings the sophistication of desktop software to your phone or tablet. It empowers users with a full suite of non-destructive editing tools, including advanced layer support, precise color correction, tone curve adjustments, and detailed masking capabilities. The app features thousands of premium, customizable filters and effects, allowing for artistic experimentation and quick, impactful enhancements. Designed for both casual users seeking quick fixes and professional retouchers requiring high precision, Photo Editor Pro provides the ultimate flexibility and control needed to transform and refine your images into stunning, high-quality visual masterpieces with unparalleled ease and versatility.",
     "size": 110,
-    "reviews": 55000,
+    "reviews": "55K",
     "ratingAvg": 4.6,
     "downloads": "4.5M",
     "ratings": [
@@ -180,13 +180,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (4).webp",
+    "image": "/demo-app (4).webp",
     "title": "Strategy Quest",
     "companyName": "Gaming Galaxy",
     "id": 11,
-    "description": "Turn-based strategy game to build an empire.",
+    "description": "Strategy Quest is an acclaimed, massive multiplayer turn-based strategy game that challenges players with the monumental task of building, managing, and defending a sprawling empire across historical and fantastical settings. The gameplay demands a deep mastery of complex systems, requiring players to expertly balance resource acquisition, technological advancement, intricate diplomatic negotiations, and strategic military conquest to ensure their civilization’s dominance. Featuring a highly detailed combat engine and extensive world-building options, the game offers a virtually endless cycle of strategic decision-making. Engage in epic battles, forge powerful alliances, and outmaneuver opponents from around the globe to secure your legacy as the ultimate empire builder.",
     "size": 250,
-    "reviews": 60000,
+    "reviews": "60K",
     "ratingAvg": 4.5,
     "downloads": "5M",
     "ratings": [
@@ -198,13 +198,13 @@
     ]
   },
   {
-    "image": "src/assets/demo-app (5).webp",
+    "image": "/demo-app (5).webp",
     "title": "Secure Wallet",
     "companyName": "Trustworthy Finance",
     "id": 12,
-    "description": "Manage finances, track spending, set budgets.",
+    "description": "Secure Wallet is a highly-rated personal finance management application that delivers both robust security and comprehensive money tracking in one clean interface. Users can effortlessly link and manage all their bank accounts, investments, and credit cards in a single, encrypted dashboard. The platform allows for meticulous monitoring of income and expenditure through intuitive charts and automatically categorized transactions, providing crystal-clear insight into cash flow. Core features include customizable budget setting, goal tracking for savings and debt repayment, and instant alerts for overspending or irregular activity. With industry-leading encryption and multi-factor authentication, Secure Wallet ensures your financial data is safe while empowering you to take complete control of your economic future.",
     "size": 55,
-    "reviews": 11000,
+    "reviews": "11K",
     "ratingAvg": 4.7,
     "downloads": "800K",
     "ratings": [

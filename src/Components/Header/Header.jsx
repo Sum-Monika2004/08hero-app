@@ -7,15 +7,15 @@ const Header = () => {
   const links = (
     <>
       <NavLink to="/">
-        <li className="m-2">Home</li>
+        <li className="m-2 text-[18px] font-semibold">Home</li>
       </NavLink>
 
       <NavLink to="/about">
-        <li className="m-2">Apps</li>
+        <li className="m-2 text-[18px] font-semibold">Apps</li>
       </NavLink>
 
       <NavLink to="/installation">
-        <li className="m-2">Installation</li>
+        <li className="m-2 text-[18px] font-semibold">Installation</li>
       </NavLink>
     </>
   );
@@ -49,12 +49,12 @@ const Header = () => {
             </ul>
           </div>
           <NavLink to="/">
-            <a className="btn btn-ghost text-xl">
+            <div className="btn btn-ghost text-xl">
               <img className="h-7 w-7" src={logoImg} alt="" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl">
                 HERO.IO
               </span>
-            </a>
+            </div>
           </NavLink>
         </div>
 
