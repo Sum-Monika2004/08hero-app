@@ -18,6 +18,7 @@ const addToDb = (id) => {
     console.log(storedAppData);
     const data = JSON.stringify(storedAppData);
     localStorage.setItem("insList", data);
+    toast("Installed");
   }
 };
 

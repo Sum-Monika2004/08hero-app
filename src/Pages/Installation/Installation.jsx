@@ -5,7 +5,49 @@ import Installed from "../Installed/Installed";
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
+  const [sort, setSort] = useState();
   const data = useLoaderData();
+
+  const normalizeDownloads = (downloadsString) => {
+    const str = String(downloadsString).toUpperCase().trim();
+    const number = parseFloat(str);
+
+    if (isNaN(number)) {
+      return 0;
+    }
+
+    if (str.endsWith("M")) {
+      return number * 1000000;
+    } else if (str.endsWith("K")) {
+      return number * 1000;
+    } else {
+      return number;
+    }
+  };
+
+  const handleSort = (type) => {
+    const listToSort = [...installList];
+
+    if (type === "High-Low") {
+      listToSort.sort((a, b) => {
+        const downloadsA = normalizeDownloads(a.downloads);
+        const downloadsB = normalizeDownloads(b.downloads);
+
+        return downloadsB - downloadsA;
+      });
+    } else if (type === "Low-High") {
+      listToSort.sort((a, b) => {
+        const downloadsA = normalizeDownloads(a.downloads);
+        const downloadsB = normalizeDownloads(b.downloads);
+
+        return downloadsA - downloadsB;
+      });
+    } else {
+    }
+
+    setInstallList(listToSort);
+    setSort(type);
+  };
 
   useEffect(() => {
     const storedAppData = getStoredApp();
@@ -29,25 +71,17 @@ const Installation = () => {
       </div>
       <div className="flex justify-between items-center mb-10">
         <h1 className="text-xl font-bold ">{installList.length} Apps Found</h1>
-        <label className="input">
-          <svg
-            className="h-[1em] opacity-50"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <g
-              strokeLinejoin="round"
-              strokeLinecap="round"
-              strokeWidth="2.5"
-              fill="none"
-              stroke="currentColor"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </g>
-          </svg>
-          <input type="search" required placeholder="Search Apps" />
-        </label>
+        <details className="dropdown">
+          <summary className="btn m-1">Sort By : {sort ? sort : ""}</summary>
+          <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+            <li>
+              <a onClick={() => handleSort("High-Low")}>High-Low</a>
+            </li>
+            <li>
+              <a onClick={() => handleSort("Low-High")}>Low-High</a>
+            </li>
+          </ul>
+        </details>
       </div>
       <div className="mb-20">
         {installList.map((a) => (

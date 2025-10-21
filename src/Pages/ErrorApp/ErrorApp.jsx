@@ -1,18 +1,19 @@
 import React from "react";
-import errorImg from "../../assets/error-404.png";
 import { NavLink } from "react-router";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+import errorAppImg from "../../assets/App-Error.png";
 
-const ErrorPage = () => {
+const ErrorApp = () => {
   return (
     <div>
       <Header></Header>
       <div className="p-18 flex-col justify-center items-center text-center space-y-4">
-        <img className="mx-auto" src={errorImg} />
-        <h1 className="text-5xl font-semibold ">Oops, page not found!</h1>
+        <img className="mx-auto" src={errorAppImg} />
+        <h1 className="text-5xl font-semibold ">OPPS!! APP NOT FOUND</h1>
         <h2 className="text-xl text-gray-500">
-          The page you are looking for is not available.
+          The App you are requesting is not found on our system. please try
+          another apps
         </h2>
         <NavLink to="/">
           <button className="btn px-7 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold">
@@ -25,4 +26,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default ErrorApp;

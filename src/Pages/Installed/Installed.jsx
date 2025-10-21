@@ -25,7 +25,7 @@ const Installed = ({ a }) => {
                 </h1>
               </div>
               <div className="text-[16px] font-medium text-gray-500">
-                293 Mb
+                {a.size} Mb
               </div>
             </div>
           </div>

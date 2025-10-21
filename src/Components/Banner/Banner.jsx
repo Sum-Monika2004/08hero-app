@@ -25,11 +25,17 @@ const Banner = () => {
         {/* button part */}
 
         <p className="my-10">
-          <a className="btn border-none font-bold text-xl" href="">
+          <a
+            className="btn border-none font-bold text-xl"
+            href="https://play.google.com/store/apps/details?id=com.android.chrome"
+          >
             <img className="h-8 w-8" src={psLogo} />
             Google Play
           </a>
-          <a className="btn border-none font-bold text-xl" href="">
+          <a
+            className="btn border-none font-bold text-xl"
+            href="https://apps.apple.com/us/app/google-chrome/id535886823"
+          >
             <img className="h-8 w-8" src={asLogo} />
             App Store
           </a>

@@ -16,6 +16,7 @@ const AppDetails = () => {
     image,
     companyName,
     title,
+    size,
     ratings,
     description,
     downloads,
@@ -86,7 +87,7 @@ const AppDetails = () => {
                 onClick={() => handleInstalled(id)}
                 className="btn p-5 text-[16px] bg-[#00D390] text-white font-semibold"
               >
-                Install Now (291 MB)
+                Install Now ({size} Mb)
               </button>
             </div>
           </div>

@@ -7,7 +7,7 @@ const Header = () => {
   const links = (
     <>
       <NavLink to="/">
-        <li className="m-2 text-[18px] font-semibold">Home</li>
+        <li className="m-2 text-[18px] font-semibold ">Home</li>
       </NavLink>
 
       <NavLink to="/about">
