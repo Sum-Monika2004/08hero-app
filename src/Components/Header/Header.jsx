@@ -2,21 +2,24 @@ import React from "react";
 import logoImg from "../../assets/logo.png";
 import gitHubImg from "../../assets/fi_2111432.png";
 import { NavLink } from "react-router";
+import "./Header.css";
 
 const Header = () => {
   const links = (
     <>
-      <NavLink to="/">
-        <li className="m-2 text-[18px] font-semibold ">Home</li>
-      </NavLink>
+      <nav className="flex">
+        <NavLink to="/">
+          <li className="m-2 text-[18px] font-semibold ">Home</li>
+        </NavLink>
 
-      <NavLink to="/about">
-        <li className="m-2 text-[18px] font-semibold">Apps</li>
-      </NavLink>
+        <NavLink to="/about">
+          <li className="m-2 text-[18px] font-semibold">Apps</li>
+        </NavLink>
 
-      <NavLink to="/installation">
-        <li className="m-2 text-[18px] font-semibold">Installation</li>
-      </NavLink>
+        <NavLink to="/installation">
+          <li className="m-2 text-[18px] font-semibold">Installation</li>
+        </NavLink>
+      </nav>
     </>
   );
   return (

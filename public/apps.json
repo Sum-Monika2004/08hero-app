@@ -74,7 +74,7 @@
   {
     "image": "/demo-app (2).webp",
     "title": "Pixel Art Maker",
-    "companyName": "Creative Canvas Inc.",
+    "companyName": "Creative Canvas ",
     "id": 5,
     "description": "Pixel Art Maker is the dedicated, streamlined digital studio for creating authentic, captivating retro-style pixel art. Designed for both professional artists and casual hobbyists, the app offers a simple yet robust interface with specialized tools essential for the aesthetic. Key features include a full-featured, custom palette editor, precise color manipulation tools, and 'onion skinning' functionality for smooth sprite animation. Users can work across multiple canvas sizes and easily create tiled backgrounds for games or web projects. The application supports various export formats, ensuring high-quality output for sprites, icons, and tiled backgrounds in a classic 8-bit or 16-bit aesthetic. It’s the perfect platform for bringing your vintage game design or creative ideas to life with precision and ease.",
     "size": 25,
@@ -92,7 +92,7 @@
   {
     "image": "/demo-app (5).webp",
     "title": "Global News Feed",
-    "companyName": "InfoStream Media",
+    "companyName": "InfoStream",
     "id": 6,
     "description": "Global News Feed is your definitive source for staying updated with the world's most critical events in real-time. It aggregates breaking news and in-depth reporting from hundreds of reliable journalistic sources across the globe, covering crucial categories like politics, technology, finance, and culture. The application leverages smart algorithms to filter and personalize your news feed based on your historical interests, ensuring you see the stories that matter most without information overload. Its clean, intuitive interface prioritizes readability, allowing users to quickly scan headlines or dive deep into complex global narratives with comprehensive articles, ensuring you are always informed and engaged with current global affairs.",
     "size": 60,
@@ -110,7 +110,7 @@
   {
     "image": "/demo-app (6).webp",
     "title": "Fitness Tracker X",
-    "companyName": "Health Metrics Ltd.",
+    "companyName": "Health Metrics",
     "id": 7,
     "description": "Fitness Tracker X is the ultimate health and wellness companion, offering a complete, integrated system for monitoring and improving your physical well-being. It goes far beyond basic step counting by meticulously tracking and analyzing various health metrics: detailed, GPS-enabled tracking for outdoor and gym workouts; advanced sleep quality monitoring with sleep cycle breakdown; and comprehensive nutritional logging via an extensive food database. The app provides personalized fitness and nutrition goals, generates actionable progress reports, and seamlessly integrates with all major wearable devices. Whether you're training for a marathon, aiming for weight loss, or simply seeking a more balanced lifestyle, Fitness Tracker X gives you the data and motivation needed to reach your long-term fitness milestones.",
     "size": 95,

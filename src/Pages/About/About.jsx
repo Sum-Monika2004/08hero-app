@@ -13,10 +13,7 @@ const About = () => {
   const searchedApps = term
     ? data.filter((a) => a.title.toLocaleLowerCase().includes(term))
     : data;
-  // console.log(searchedApps);
-  // if (searchedApps.length === 0) {
-  //   <ErrorApp></ErrorApp>;
-  // }
+  const noResults = searchedApps.length === 0 && term.length > 0;
 
   return (
     <div className="w-11/12 mx-auto">
@@ -57,16 +54,21 @@ const About = () => {
         </label>
       </div>
       <div className="mb-20">
-        {/* <Apps data={data}></Apps> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Suspense
-            fallback={<span className="loading loading-dots loading-xl"></span>}
-          >
-            {searchedApps.map((singleApp) => (
-              <App key={singleApp.id} singleApp={singleApp}></App>
-            ))}
-          </Suspense>
-        </div>
+        {noResults ? (
+          <ErrorApp></ErrorApp>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Suspense
+              fallback={
+                <span className="loading loading-dots loading-xl"></span>
+              }
+            >
+              {searchedApps.map((singleApp) => (
+                <App key={singleApp.id} singleApp={singleApp}></App>
+              ))}
+            </Suspense>
+          </div>
+        )}
       </div>
     </div>
   );
