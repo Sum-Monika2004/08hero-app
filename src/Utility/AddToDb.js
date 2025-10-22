@@ -9,6 +9,7 @@ const getStoredApp = () => {
     return [];
   }
 };
+
 const addToDb = (id) => {
   const storedAppData = getStoredApp();
   if (storedAppData.includes(id)) {

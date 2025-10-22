@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import { getStoredApp } from "../../Utility/AddToDb";
 import Installed from "../Installed/Installed";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
@@ -59,6 +60,20 @@ const Installation = () => {
     setInstallList(myInsList);
   }, []);
 
+  const handleRemove = (id) => {
+    toast("Uninstalled");
+    const existing = JSON.parse(localStorage.getItem("insList"));
+
+    setInstallList((prevList) => {
+      const updatedAppList = prevList.filter((app) => app.id !== id);
+      localStorage.setItem(
+        "insList",
+        JSON.stringify(updatedAppList.map((app) => app.id))
+      );
+      return updatedAppList;
+    });
+  };
+
   return (
     <div className="max-w-11/12 mx-auto">
       <div className="text-center mt-20 mb-10">
@@ -85,7 +100,7 @@ const Installation = () => {
       </div>
       <div className="mb-20">
         {installList.map((a) => (
-          <Installed a={a}></Installed>
+          <Installed a={a} handleRemove={handleRemove}></Installed>
         ))}
       </div>
     </div>

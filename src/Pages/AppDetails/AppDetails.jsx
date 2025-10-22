@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
@@ -23,8 +23,9 @@ const AppDetails = () => {
     ratingAvg,
     reviews,
   } = singleApp;
-
+  const [click, setClick] = useState(false);
   const handleInstalled = (id) => {
+    setClick(true);
     addToDb(id);
 
     // store with id
@@ -86,8 +87,9 @@ const AppDetails = () => {
               <button
                 onClick={() => handleInstalled(id)}
                 className="btn p-5 text-[16px] bg-[#00D390] text-white font-semibold"
+                disabled={click === true}
               >
-                Install Now ({size} Mb)
+                {click === true ? "Installed" : `Install Now (${size} Mb)`}
               </button>
             </div>
           </div>

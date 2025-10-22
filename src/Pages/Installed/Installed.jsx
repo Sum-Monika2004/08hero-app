@@ -1,7 +1,7 @@
 import React from "react";
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
-const Installed = ({ a }) => {
+const Installed = ({ a, handleRemove }) => {
   return (
     <div className="mb-4 shadow-sm">
       <div className="flex gap-3 p-5 rounded-xl bg-white items-center justify-between">
@@ -31,7 +31,10 @@ const Installed = ({ a }) => {
           </div>
         </div>
         <div>
-          <button className="btn bg-[#00D390] text-white font-semibold">
+          <button
+            onClick={() => handleRemove(a.id)}
+            className="btn bg-[#00D390] text-white font-semibold"
+          >
             {" "}
             Uninstall
           </button>

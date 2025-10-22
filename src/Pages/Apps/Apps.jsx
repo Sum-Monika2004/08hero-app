@@ -3,6 +3,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import App from "../App/App";
 
 const Apps = ({ data }) => {
+  const sliceData = data.slice(0, 8);
   return (
     <div className="">
       {/* cards */}
@@ -10,7 +11,7 @@ const Apps = ({ data }) => {
         <Suspense
           fallback={<span className="loading loading-dots loading-xl"></span>}
         >
-          {data.map((singleApp) => (
+          {sliceData.map((singleApp) => (
             <App key={singleApp.id} singleApp={singleApp}></App>
           ))}
         </Suspense>
